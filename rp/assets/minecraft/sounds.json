@@ -1,0 +1,90 @@
+{
+	"music_disc.demise": {
+		"sounds": [
+			{
+				"name": "records/demise",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.medivo": {
+		"sounds": [
+			{
+				"name": "records/medivo",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.resurrections": {
+		"sounds": [
+			{
+				"name": "records/resurrections",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.never_gonna_give_you_up": {
+		"sounds": [
+			{
+				"name": "records/never_gonna_give_you_up",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.battle_the_golden_country": {
+		"sounds": [
+			{
+				"name": "records/battle_the_golden_country",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.thunderstruck": {
+		"sounds": [
+			{
+				"name": "records/thunderstruck",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.dead_of_night": {
+		"sounds": [
+			{
+				"name": "records/dead_of_night",
+				"stream": true
+			}
+		]
+	},
+	
+	"music_disc.fireflies": {
+		"sounds": [
+			{
+				"name": "records/fireflies",
+				"stream": true
+			}
+		]
+	},
+	"music_disc.rainbow_road": {
+		"sounds": [
+			{
+				"name": "records/rainbow_road",
+				"stream": true
+			}
+		]
+	},
+	"music_disc.life_is_a_highway": {
+		"sounds": [
+			{
+				"name": "records/life_is_a_highway",
+				"stream": true
+			}
+		]
+	}
+}
+

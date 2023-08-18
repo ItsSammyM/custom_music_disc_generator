@@ -1,0 +1,19 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/music_disc_11"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/music_disc_demise"},
+		{"predicate": {"custom_model_data":2}, "model": "item/music_disc_medivo"},
+		{"predicate": {"custom_model_data":3}, "model": "item/music_disc_resurrections"},
+		{"predicate": {"custom_model_data":4}, "model": "item/music_disc_never_gonna_give_you_up"},
+		{"predicate": {"custom_model_data":5}, "model": "item/music_disc_battle_the_golden_country"},
+		{"predicate": {"custom_model_data":6}, "model": "item/music_disc_thunderstruck"},
+		{"predicate": {"custom_model_data":7}, "model": "item/music_disc_dead_of_night"},
+		{"predicate": {"custom_model_data":8}, "model": "item/music_disc_fireflies"},
+		{"predicate": {"custom_model_data":9}, "model": "item/music_disc_rainbow_road"},
+		{"predicate": {"custom_model_data":10}, "model": "item/music_disc_life_is_a_highway"}
+	]
+}
