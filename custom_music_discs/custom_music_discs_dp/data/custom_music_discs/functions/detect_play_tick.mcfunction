@@ -9,6 +9,7 @@ execute as @a[scores={usedDisc=2, heldDisc=7}] run function custom_music_discs:p
 execute as @a[scores={usedDisc=2, heldDisc=8}] run function custom_music_discs:play_fireflies
 execute as @a[scores={usedDisc=2, heldDisc=9}] run function custom_music_discs:play_rainbow_road
 execute as @a[scores={usedDisc=2, heldDisc=10}] run function custom_music_discs:play_life_is_a_highway
+execute as @a[scores={usedDisc=2, heldDisc=11}] run function custom_music_discs:play_the_town_inside_me
 
 execute as @a[scores={usedDisc=2..}] run scoreboard players set @s usedDisc 0
 scoreboard players add @a[scores={usedDisc=1}] usedDisc 1

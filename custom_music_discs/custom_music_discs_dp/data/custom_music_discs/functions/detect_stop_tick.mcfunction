@@ -28,4 +28,7 @@ execute as @e[type=item, nbt={Item:{id:"minecraft:music_disc_11", tag:{CustomMod
 execute as @e[type=item, nbt={Item:{id:"minecraft:music_disc_11", tag:{CustomModelData:10}}}] at @s unless entity @s[tag=old] if block ~ ~-1 ~ minecraft:jukebox run stopsound @a[distance=..64] record minecraft:music_disc.life_is_a_highway
 execute as @e[type=item, nbt={Item:{id:"minecraft:music_disc_11", tag:{CustomModelData:10}}}] at @s unless entity @s[tag=old] if block ~ ~ ~ minecraft:jukebox run stopsound @a[distance=..64] record minecraft:music_disc.life_is_a_highway
 
+execute as @e[type=item, nbt={Item:{id:"minecraft:music_disc_11", tag:{CustomModelData:11}}}] at @s unless entity @s[tag=old] if block ~ ~-1 ~ minecraft:jukebox run stopsound @a[distance=..64] record minecraft:music_disc.the_town_inside_me
+execute as @e[type=item, nbt={Item:{id:"minecraft:music_disc_11", tag:{CustomModelData:11}}}] at @s unless entity @s[tag=old] if block ~ ~ ~ minecraft:jukebox run stopsound @a[distance=..64] record minecraft:music_disc.the_town_inside_me
+
 execute as @e[type=item, nbt={Item:{id:"minecraft:music_disc_11"}}] at @s unless entity @s[tag=old] run tag @s add old

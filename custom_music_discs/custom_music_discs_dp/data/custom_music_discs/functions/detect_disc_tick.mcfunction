@@ -9,3 +9,4 @@ scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{
 scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:8}}}] heldDisc 8
 scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:9}}}] heldDisc 9
 scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:10}}}] heldDisc 10
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:11}}}] heldDisc 11

@@ -145,7 +145,18 @@
 				"tag": "{CustomModelData:10, HideFlags:32, display:{Lore:[\"\\\"§7Life_is_a_highway - Rascall Flatts\\\"\"]}}"
 			}
 		  ]
-        }
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:music_disc_11",
+            "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:11, HideFlags:32, display:{Lore:[\"\\\"§7The Town Inside Me - Daisuke Ishiwatari\\\"\"]}}"
+              }
+            ]
+          }
       ],
       "conditions": [
         {

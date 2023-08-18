@@ -85,6 +85,14 @@
 				"stream": true
 			}
 		]
+	},
+	"music_disc.life_is_a_highway": {
+		"sounds": [
+			{
+				"name": "records/the_town_inside_me",
+				"stream": true
+			}
+		]
 	}
 }
 
