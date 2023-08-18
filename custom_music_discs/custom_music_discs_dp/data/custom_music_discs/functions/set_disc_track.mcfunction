@@ -8,4 +8,4 @@ execute as @s[scores={heldDisc=7}] run replaceitem entity @s weapon.mainhand min
 execute as @s[scores={heldDisc=8}] run replaceitem entity @s weapon.mainhand minecraft:music_disc_11{CustomModelData:8, HideFlags:32, display:{Lore:["\"§7Fireflies - Owl City\""]}}
 execute as @s[scores={heldDisc=9}] run replaceitem entity @s weapon.mainhand minecraft:music_disc_11{CustomModelData:9, HideFlags:32, display:{Lore:["\"§7Rainbow_road - Mario Kart\""]}}
 execute as @s[scores={heldDisc=10}] run replaceitem entity @s weapon.mainhand minecraft:music_disc_11{CustomModelData:10, HideFlags:32, display:{Lore:["\"§7Life_is_a_highway - Rascall Flatts\""]}}
-execute as @s[scores={heldDisc=10}] run replaceitem entity @s weapon.mainhand minecraft:music_disc_11{CustomModelData:10, HideFlags:32, display:{Lore:["\"§7The Town Inside Me - Daisuke Ishiwatari\""]}}
+execute as @s[scores={heldDisc=10}] run replaceitem entity @s weapon.mainhand minecraft:music_disc_11{CustomModelData:11, HideFlags:32, display:{Lore:["\"§7The Town Inside Me - Daisuke Ishiwatari\""]}}
