@@ -1,0 +1,161 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+		{
+		  "type": "minecraft:tag",
+		  "weight": 1,
+		  "name": "minecraft:music_discs",
+          "expand": true
+		},
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+		  "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:1, HideFlags:32, display:{Lore:[\"\\\"§7Moorziey - Demise\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:2, HideFlags:32, display:{Lore:[\"\\\"§7worldpeace - Medivo\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:3, HideFlags:32, display:{Lore:[\"\\\"§7Resurrections - Lena Raine\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:4, HideFlags:32, display:{Lore:[\"\\\"§7Never Gonna Give You Up - Rick Astley\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:5, HideFlags:32, display:{Lore:[\"\\\"§7Battle-The_Golden_Country - (Thomas music)\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:6, HideFlags:32, display:{Lore:[\"\\\"§7Thunderstruck - AC/DC\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:7, HideFlags:32, display:{Lore:[\"\\\"§7Dead_of_night - Daniel Olsen\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:8, HideFlags:32, display:{Lore:[\"\\\"§7Fireflies - Owl City\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:9, HideFlags:32, display:{Lore:[\"\\\"§7Rainbow_road - Mario Kart\\\"\"]}}"
+			}
+		  ]
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "minecraft:music_disc_11",
+		  "functions": [
+			{
+				"function": "minecraft:set_nbt",
+				"tag": "{CustomModelData:10, HideFlags:32, display:{Lore:[\"\\\"§7Life_is_a_highway - Rascall Flatts\\\"\"]}}"
+			}
+		  ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          },
+          "entity": "killer"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11"}}] heldDisc 0
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:1}}}] heldDisc 1
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:2}}}] heldDisc 2
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:3}}}] heldDisc 3
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:4}}}] heldDisc 4
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:5}}}] heldDisc 5
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:6}}}] heldDisc 6
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:7}}}] heldDisc 7
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:8}}}] heldDisc 8
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:9}}}] heldDisc 9
+scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:music_disc_11", tag:{CustomModelData:10}}}] heldDisc 10
